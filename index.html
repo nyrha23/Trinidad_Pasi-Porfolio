@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Recursos externos -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Recursos internos -->
+        <link rel="stylesheet" href="css/reset.css" crossorigin>
+        <link rel="stylesheet" href="css/style.css" crossorigin>
+        <link rel="stylesheet" href="css/flexbox.css" crossorigin>
+        <meta name="description" content="Trinidad Pasi, portafolio">
+        <link rel="icon" href="/assets/img/spa-solid.icon" type="icon" sizes="16x16">
+        <title>Trinidad Pasi | Portafolio</title>
+    </head>
+
+    <body>
+        <div class="body-container">
+            <!-- Sección Header -->
+            <header class="header" id="header">
+                <div class="menu__container div-container">
+                    <a class="menu__logo" href="index.html">
+                        <i class="fa-solid fa-spa"></i>
+                        <h1 class="menu__title">Trinidad Pasi</h1>
+                    </a>
+                    <div class="menu__option">
+                        <input type="checkbox" id="menu-check">
+                        <label id="menu" for="menu-check">
+                            <span id="menu-abrir">
+                                <i class="fa-solid fa-bars"></i>
+                            </span>
+                            <span id="menu-cerrar">
+                                <i class="fa-solid fa-xmark"></i>
+                            </span>
+                        </label>
+                        <nav class="menu__nav">
+                            <ul class="menu__list">
+                                <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
+                                <li class="menu__list__item"><a href="#hard-skills">Hard Skills</a></li>
+                                <li class="menu__list__item"><a href="#soft-skills">Soft Skills</a></li>
+                                <li class="menu__list__item"><a href="#formacion">Formación</a></li>
+                                <li class="menu__list__item"><a href="#proyectos">Proyectos</a></li>
+                                <li class="menu__list__item"><a href="#contacto">Contacto</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            
+            <!-- Sección Main -->
+            <main class="main">
+                <div>
+                    <a href="#header"><button class="main__btn"><i class="fa-solid fa-arrow-up"></i></button></a>
+                </div>
+
+                <!-- Sección Title -->
+                <section class="title">
+                    <div class="title__container div-container">
+                        <img class="title__profile" src="/assets/img/profile.svg">
+                        <div class="title__description">
+                            <h1 class="title__bio">Hola, mi nombre es Trinidad Pasi</h1>
+                            <h2 class="title__subsection">Actualmente estoy estudiando Desarrollado de Software.</h2>
+                            <ul class="title__network">
+                                <!-- Pon los enlaces de tus redes sociales favoritas -->
+                                <li class="title__network__item"><a href="https://github.com/nyrha23" target="_blank">Github<i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></a></li>
+                                <li class="title__network__item"><a href="https://www.linkedin.com/in/trinidad-pasi/"target="_blank">Linkedin<i class="fa-solid fa-arrow-up-right-from-square fa-2xs"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Sección About -->
+                <section class="about" id="sobre-mi">
+                    <div class="about__container div-container">
+                        <h3 class="about__title">Sobre mi</h3>
+                        <p class="about__paragraph">
+                            Soy una apasionada de la tecnología con un camino profesional poco convencional. Mi viaje comenzó en el mundo de la belleza y el bienestar, donde trabajé como
+                            Esteticista, Cosmetóloga, Maquilladora Profesional y Terapeuta Holística especializada en Aromaterapia y Auriculoterapia. Mi interés por la organización me llevó a incursionar en la
+                            Planificación de Eventos, adquiriendo experiencia en la gestión de eventos sociales y corporativos.
+                        </p>
+                        <p class="about__paragraph">
+                            Sin embargo, mi verdadera pasión siempre fue la tecnología. Lo que comenzó como un simple blog de pasatiempos se convirtió en el catalizador de mi cambio de
+                            carrera. En 2012, di mis primeros pasos en el sector IT con un curso de Desarrollo Web en Google Actívate; a partir de ese momento, mi formación ha sido constante.
+                        </p>
+                        <p class="about__paragraph">
+                            Mi camino no ha sido lineal, pero mi determinación me ha impulsado a seguir adelante. Soy una persona creativa, apasionada y con una gran capacidad de aprendizaje.
+                            Me adapto fácilmente a los nuevos desafíos y estoy siempre dispuesta a seguir creciendo en el ámbito tecnológico.
+                        </p>
+                        <p class="about__paragraph">
+                            Mi objetivo es utilizar mi experiencia y conocimientos para aportar valor al mundo digital y ayudar a otros a descubrir su pasión por la tecnología.
+                        </p>
+                        <!-- Firma -->
+                        <img class="about__signature" src="/assets/img/signature-black.svg">
+                    </div>
+                </section>
+
+                <!-- Sección Skills -->
+                <section class="skills" id="hard-skills">
+                    <div class="skills__container div-container">
+                        <h3 class="skills__title">Hard Skills</h3>
+                        <div class="skills__line">
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__icon"><i class="fa-brands fa-html5"></i></li>
+                                    <li class="skills__name">HTML5</li>
+                                </ul>
+                            </div>
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__icon"><i class="fa-brands fa-css3-alt"></i></li>
+                                    <li class="skills__name">CSS3</li>
+                                </ul>
+                            </div>
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__icon"><i class="fa-brands fa-js"></i></li>
+                                    <li class="skills__name">Javascript</li>
+                                </ul>
+                            </div>
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__icon"><i class="fa-brands fa-react"></i></li>
+                                    <li class="skills__name">React</li>
+                                </ul>
+                            </div>
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__icon"><i class="fa-brands fa-node-js"></i></li>
+                                    <li class="skills__name">NodeJs</li>
+                                </ul>
+                            </div>
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__icon"><i class="fa-brands fa-vuejs"></i></li>
+                                    <li class="skills__name">VueJs</li>
+                                </ul>
+                            </div>
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__icon"><i class="fa-brands fa-figma"></i></li>
+                                    <li class="skills__name">Figma</li>
+                                </ul>
+                            </div>
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__icon"><i class="fa-solid fa-database"></i></li>
+                                    <li class="skills__name">MySQL</li>
+                                </ul>
+                            </div>
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__icon"><i class="fa-brands fa-java"></i></li>
+                                    <li class="skills__name">Java</li>
+                                </ul>
+                            </div>
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__icon"><i class="fa-brands fa-php"></i></li>
+                                    <li class="skills__name">PHP</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__icon"><i class="fa-brands fa-github"></i></li>
+                                    <li class="skills__name">Github</li>
+                                </ul>
+                            </div>
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__icon"><i class="fa-brands fa-markdown"></i></li>
+                                    <li class="skills__name">Markdown</li>
+                                </ul>
+                            </div>
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__icon"><i class="fa-brands fa-bootstrap"></i></li>
+                                    <li class="skills__name">Bootstrap</li>
+                                </ul>
+                            </div>
+                            <div class="skills__box">
+                                <ul>
+                                    <li class="skills__icon"><i class="fa-brands fa-wordpress-simple"></i></li>
+                                    <li class="skills__name">Wordpress</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="skills" id="soft-skills">
+                    <div class="skills__container div-container">
+                        <h3 class="skills__title">Soft Skills</h3>
+                        <table class="skills__table">
+                            <tbody>
+                                <tr>
+                                    <th class="skills__icon"><i class="fa-solid fa-user"></i>Personales</th>
+                                    <th class="skills__icon"><i class="fa-solid fa-people-group"></i>Sociales</th>
+                                    <th class="skills__icon"><i class="fa-solid fa-business-time"></i>Metódicas</th>
+                                </tr>
+                                <tr>
+                                    <td>Compromiso</td>
+                                    <td>Trabajo en equipo</td>
+                                    <td>Organización</td>
+                                </tr>
+                                <tr>
+                                    <td>Motivación</td>
+                                    <td>Comunicación</td>
+                                    <td>Analítica</td>
+                                </tr>
+                                <tr>
+                                    <td>Curiosidad</td>
+                                    <td>Asertividad</td>
+                                    <td>Resolución</td>
+                                </tr>
+                                <tr>
+                                    <td>Autodidacta</td>
+                                    <td>Integración</td>
+                                    <td>Manejo del estrés</td>
+                                </tr>
+                                <tr>
+                                    <td>Responsabilidad</td>
+                                    <td>Empatía</td>
+                                    <td>Adaptación</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+
+                <!-- Sección Formación -->
+                <section class="academic" id="formacion">
+                    <div class="academic__container div-container">
+                        <h2 class="academic__title">Formación académica</h2>
+                        <div class="academic__courses">
+                            <div class="academic__courses__box">
+                                <ul class="academic__courses__list">
+                                    <li class="academic__courses__item__img"><img src="assets/img/logoIFTS29.svg"></li>
+                                    <li class="academic__courses__item__title">
+                                        <h4>Desarrollo de Software</h4>
+                                    </li>
+                                    <li class="academic__courses__item__subtitle">
+                                        <p>IFTS Nº29 | 2023 - cursando</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="academic__courses__box">
+                                <ul class="academic__courses__list">
+                                    <li class="academic__courses__item__img"><img src="/assets/img/logoAALV.svg"></li>
+                                    <li class="academic__courses__item__title">
+                                        <h4>Testing QA</h4>
+                                    </li>
+                                    <li class="academic__courses__item__subtitle">
+                                        <p>Codo a Codo | 2024</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="academic__courses__box">
+                                <ul class="academic__courses__list">
+                                    <li class="academic__courses__item__img"><img src="/assets/img/logoAALV.svg"></li>
+                                    <li class="academic__courses__item__title">
+                                        <h4>FullStack Python</h4>
+                                    </li>
+                                    <li class="academic__courses__item__subtitle">
+                                        <p>Codo a Codo | 2022</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="academic__courses__box">
+                                <ul class="academic__courses__list">
+                                    <li class="academic__courses__item__img"><img src="/assets/img/logoCAC.svg"></li>
+                                    <li class="academic__courses__item__title">
+                                        <h4>Diseño UX/UI</h4>
+                                    </li>
+                                    <li class="academic__courses__item__subtitle">
+                                        <p>Codo a Codo | 2022</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="academic__courses__box">
+                                <ul class="academic__courses__list">
+                                    <li class="academic__courses__item__img"><img src="/assets/img/logoAALV.svg"></li>
+                                    <li class="academic__courses__item__title">
+                                        <h4>Desarrollo Web</h4>
+                                    </li>
+                                    <li class="academic__courses__item__subtitle">
+                                        <p>Codo a Codo | 2021</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="academic__courses__box">
+                                <ul class="academic__courses__list">
+                                    <li class="academic__courses__item__img"><img src="/assets/img/logoCAC.svg"></li>
+                                    <li class="academic__courses__item__title">
+                                        <h4>FullStack Java</h4>
+                                    </li>
+                                    <li class="academic__courses__item__subtitle">
+                                        <p>Codo a Codo | 2019</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="academic__courses__box">
+                                <ul class="academic__courses__list">
+                                    <li class="academic__courses__item__img"><img src="/assets/img/logoCOE.svg"></li>
+                                    <li class="academic__courses__item__title">
+                                        <h4>Organización de Eventos</h4>
+                                    </li>
+                                    <li class="academic__courses__item__subtitle">
+                                        <p>COE | 2014 - 2016</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="academic__courses__box">
+                                <ul class="academic__courses__list">
+                                    <li class="academic__courses__item__img"><img src="/assets/img/logoGA2012.svg"></li>
+                                    <li class="academic__courses__item__title">
+                                        <h4>Desarrollo Web</h4>
+                                    </li>
+                                    <li class="academic__courses__item__subtitle">
+                                        <p>Google Actívate | 2012</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="academic__courses__box">
+                                <ul class="academic__courses__list">
+                                    <li class="academic__courses__item__img"><img src="/assets/img/logoITS.svg"></li>
+                                    <li class="academic__courses__item__title">
+                                        <h4>Perito Mercantil</h4>
+                                    </li>
+                                    <li class="academic__courses__item__subtitle">
+                                        <p>ITS | 2002</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Sección Proyectos -->
+                <section class="experience" id="proyectos">
+                    <div class="experience__container div-container">
+                        <h2 class="experience__section__title">Proyectos</h2>
+                        <div class="experience__list">
+                            <div class="experience__box">
+                                <!-- Captura de pantalla del proyecto -->
+                                <img class="experience__img" src="/assets/img/encriptador.jpg">
+                                <div class="experience__info">
+                                    <h3 class="experience__title">Encriptador de texto</h3>
+                                    <h4 class="experience__text">Challenge Oracle</h4>
+                                    <div class="experience__description">
+                                        <!-- Enlace del proyecto -->
+                                        <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam" target="_blank"><button class="experience__btn--repo">Repositório</button></a></span>
+                                        <span class="experience__demo"><a href="https://nyrha23.github.io/Challenge-ONE-Encriptador/" target="_blank"><button class="experience__btn--demo">Ver demo</button></a></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="experience__box">
+                                <img class="experience__img" src="/assets/img/capsulaDelTiempo.jpg">
+                                <div class="experience__info">
+                                    <h3 class="experience__title">La Cápsula del Tiempo</h3>
+                                    <h4 class="experience__text">Codo a Codo</h4>
+                                    <div class="experience__description">
+                                        <span class="experience__repo"><a href="https://github.com/nyrha23/Proyecto-final-CAC2022" target="_blank"><button class="experience__btn--repo">Repositório</button></a></span>
+                                        <span class="experience__demo"><a href="https://la-capsula-del-tiempo.netlify.app/" target="_blank"><button class="experience__btn--demo">Ver demo</button></a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Sección Contacto -->
+                <section class="formcontacto" id="contacto">
+                    <div class="formcontacto__container div-container">
+                        <h2 class="formcontacto__title">Contacto</h2>
+                        <p class="formcontacto__subtext">¿Quiere contactarme?</p>
+                        <p class="formcontacto__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+                        <form class="formcontacto__form" name="form">
+                            <input class="formcontacto__input" type="text" name="nombre" placeholder="Nombre" required>
+                            <input class="formcontacto__input" type="text" name="apellido" placeholder="Apellido" required>
+                            <input class="formcontacto__input" type="email" name="email" placeholder="E-mail" required>
+                            <input class="formcontacto__input" type="tel" name="telefono" pattern="[0-9]{7-15}" maxlength="15" placeholder="Teléfono">
+                            <!-- enviar mensaje -->
+                            <input class="formcontacto__input" type="text" name="asunto" placeholder="Asunto">
+                            <textarea class="formcontacto__textarea" rows="5" cols="40" id="mensajem" name="mensaje" placeholder="Mensaje"></textarea>
+                            <button type="submit" class="formcontacto__btn">Enviar mensaje <i class="fa-solid fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </section>
+            </main>
+
+            <!-- Sección Footer -->
+            <footer class="piepagina div-container">
+                <div class="piepagina__container">
+                    <p>Desarrollado por <strong>Trinidad Pasi</strong> | 2024</p>
+                </div>
+            </footer>
+        </div>
+    </body>
+
+</html>

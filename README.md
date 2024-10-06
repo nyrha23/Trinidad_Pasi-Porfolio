@@ -39,5 +39,5 @@ Mi objetivo es utilizar mi experiencia y conocimientos para aportar valor al mun
 
 Languages: 
 
-![Languages](https://img.shields.io/badge/62.4%25-gray?style=for-the-badge&logo=html5&logoColor=white&labelColor=%23E34F26) 
-![Languages](https://img.shields.io/badge/37.6%25-gray?style=for-the-badge&logo=css3&logoColor=white&labelColor=%231572B6) 
+![Languages](https://img.shields.io/badge/62.5%25-gray?style=for-the-badge&logo=html5&logoColor=white&labelColor=%23E34F26) 
+![Languages](https://img.shields.io/badge/37.5%25-gray?style=for-the-badge&logo=css3&logoColor=white&labelColor=%231572B6) 

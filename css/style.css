@@ -1,5 +1,7 @@
 *, ::after, ::before {
     box-sizing: border-box;
+}
+:root {
     --c-white: #FFFAFA;
     --c-gray-light: #DCDCDC;
     --c-gray: #C0C0C0;

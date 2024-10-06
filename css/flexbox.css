@@ -71,7 +71,7 @@ ul.title__network {
 /* ABOUT */
 
 /* SKILLS */
-.skills__line {
+.skills__list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -98,15 +98,7 @@ ul.title__network {
 }
 
 /* FORMACIÓN */
-.academic__courses__list {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    gap: 0.25rem;
-}
-
-.academic__courses {
+.academic__list {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -116,27 +108,37 @@ ul.title__network {
     gap: 1rem;
 }
 
+.academic__list__item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 0.25rem;
+}
+
 /* PROYECTOS */
-div.experience__box {
+.experience__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+}
+
+.experience__box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-div.experience__info {
+.experience__info {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.5rem;
-}
-
-div.experience__list {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 1.5rem;
 }
 
 /* CONTACTO */
